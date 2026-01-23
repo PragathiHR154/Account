@@ -31,12 +31,12 @@ class BankAccount {
 public class BankService {
     public static void main(String[] args) {
         // Create account with initial balance
-        BankAccount account = new BankAccount(1000);
+        BankAccount account = new BankAccount(20000);
 
         // Perform simple operations
         account.showBalance();
-        account.deposit(500);
-        account.withdraw(200);
+        account.deposit(10000);
+        account.withdraw(2000);
         account.showBalance();
     }
 }
