@@ -35,8 +35,8 @@ public class BankService {
 
         // Perform simple operations
         account.showBalance();
-        account.deposit(10000);
-        account.withdraw(2000);
+        account.deposit(11000);
+        account.withdraw(5000);
         account.showBalance();
     }
 }
